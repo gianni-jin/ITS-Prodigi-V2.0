@@ -1,4 +1,4 @@
-![Pasted image 20230925221520](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/73401277-ce96-4a18-b8b4-c8e021f02fa9)# ITS-Prodigi-V2.0
+# ITS-Prodigi-V2.0
 Prima di leggere questo, La prego di leggere il file 'README PRINCIPALE.md', che contiene anche una procedura dettagliata su come aprire ed utilizzare questi programmi
 
 Il programma rappresenta una versione avanzata del progetto denominato 'ITS Prodigi V1.0'. Consente all'utente di accedere sia come amministratori che come studenti e di effettuare una serie di operazioni amministrative e studentesche
