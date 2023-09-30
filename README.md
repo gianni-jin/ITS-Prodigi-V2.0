@@ -463,7 +463,7 @@ Nella classe sono presenti molti get e set metodi per restituire ed impostare i 
 
 
 ### Metodi per modificare alcuni campi speciali
-L'ultima tipologia dei metodi serve per modificare alcuni campi speciali
+La prossima tipologia dei metodi serve per modificare alcuni campi speciali
 
 1. “iscriviStudenteInInsegnamento(Studente student)”: Iscrive uno studente a questo insegnamento.
 2. “rimuoviStudenteDaInsegnamento(Studente student)”: Rimuove uno studente da questo insegnamento.
@@ -484,7 +484,7 @@ Un metodo per effettuare operazioni di sintesi:
 # Classe InsegnamentoController
 
 ## Sintesi
-La classe “InsegnamentoController” è responsabile della gestione degli insegnamenti all'interno del sistema ed è utilizzata per leggere, memorizzare e manipolare le informazioni sugli insegnamenti. Ecco un riassunto delle sue funzionalità:
+La classe “InsegnamentoController” è responsabile della gestione degli insegnamenti all'interno del sistema ed è utilizzata per leggere, memorizzare e manipolare le informazioni sugli insegnamenti.
 
 ---
 
