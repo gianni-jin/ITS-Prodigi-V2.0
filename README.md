@@ -408,7 +408,7 @@ Questo metodo divide i dati degli studenti e degli insegnamenti a cui sono iscri
 ### Metodi per modificare i dati degli studenti
 
 1. “aggiungiStudente()”: Permette di aggiungere un nuovo studente all'elenco degli studenti. Richiede l'inserimento di tutte le informazioni necessarie per creare un nuovo oggetto “Studente”, verificando che l'ID studente sia univoco.
-2. “eliminiStudente(Studente student)”: Rimuove uno studente dall'elenco degli studenti, compresa la cancellazione della sua iscrizione da tutti gli insegnamenti.
+2. “eliminiStudente(Studente studente)”: Rimuove uno studente dall'elenco degli studenti, compresa la cancellazione della sua iscrizione da tutti gli insegnamenti.
 3. “selezioniStudente(ArrayList< Studente> studenti)”: Permette all'utente di selezionare uno studente dall'elenco fornito.
 
 ---
@@ -465,8 +465,8 @@ Nella classe sono presenti molti get e set metodi per restituire ed impostare i 
 ### Metodi per modificare alcuni campi speciali
 La prossima tipologia dei metodi serve per modificare alcuni campi speciali
 
-1. “iscriviStudenteInInsegnamento(Studente student)”: Iscrive uno studente a questo insegnamento.
-2. “rimuoviStudenteDaInsegnamento(Studente student)”: Rimuove uno studente da questo insegnamento.
+1. “iscriviStudenteInInsegnamento(Studente studente)”: Iscrive uno studente a questo insegnamento.
+2. “rimuoviStudenteDaInsegnamento(Studente studente)”: Rimuove uno studente da questo insegnamento.
 3. “rimuoviTuttiStudentiDaInsegnamento()”: Rimuove tutti gli studenti da questo insegnamento. Questo metodo verrà utilizzato quando si modifica il trimestre dell'insegnamento.
 
 ---
@@ -524,7 +524,7 @@ Il suo funzionamento e' molto simile/uguale al metodo **modifichiStudente()** de
 
 1. “aggiungiInsegnamento()”: Permette di aggiungere un nuovo insegnamento alla lista degli insegnamenti disponibili.
 2. “rimuoviInsegnamento(Insegnamento insegnamento)”: Rimuove un insegnamento dalla lista degli insegnamenti.
-3. “selezioniInsegnamento(ArrayList<Insegnamento> insegnamenti, Studente student)”: Permette all'utente di selezionare un insegnamento dalla lista degli insegnamenti disponibili.
+3. “selezioniInsegnamento(ArrayList<Insegnamento> insegnamenti, Studente studente)”: Permette all'utente di selezionare un insegnamento dalla lista degli insegnamenti disponibili.
 
 
 
