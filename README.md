@@ -88,7 +88,7 @@ Proviamo ad aggiungere un nuovo studente per esplorare il programma dal punto di
 Ottimo! Siamo riusciti ad aggiungere con successo il nuovo studente, e abbiamo ricevuto una notifica di conferma dell'operazione!
 
 Inoltre, è importante notare che se l'utente inserisce un valore numerico non accettato dal sistema (nel nostro caso, il numero del trimestre deve essere compreso tra 1 e 4), il programma segnala l'errore e richiede un nuovo input:
-![Pasted image 20230925202719](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/9f30f5d8-184c-437f-947a-d799ebe728de)
+![image](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/1aad7996-7e85-4fb3-a88e-a6684c897d5d)
 
 
 ---
