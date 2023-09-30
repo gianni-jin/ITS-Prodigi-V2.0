@@ -123,7 +123,7 @@ Cominciamo visualizzando prima di tutto i nostri dati:
 ![Pasted image 20230925205354](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/51c55997-1f11-4fe9-b829-db819b1b4cba)
 
 
-Mi indica correttamente che non sono iscritto a nessun corso!
+Mi indica correttamente che non sono iscritto a nessun insegnamento!
 
 ---
 
