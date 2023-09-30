@@ -59,7 +59,7 @@ Ottimo, ora esploreremo le tre opzioni disponibili. Supponiamo che desideriamo a
 ![Pasted image 20230925201842](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/e539ab6b-4e13-4897-9411-f65566c8b93d)
 
 
-Ops! In realtà, non è possibile accedere come studente al momento poiché il database degli studenti, indicato dal file "Studenti.txt", è attualmente vuoto. Pertanto, è necessario avviare la sessione come amministratore prima di poter procedere, in modo da poter aggiungere gli studenti necessari.
+Ops! In realtà, non è possibile accedere come studente al momento poiché il database degli studenti, indicato dal file "Studenti.txt", è attualmente vuoto. 
 
 ![Pasted image 20230925201946](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/92ecdafd-6e0c-4f6e-88ad-87a45b8066a0)
 
