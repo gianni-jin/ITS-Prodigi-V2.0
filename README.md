@@ -265,9 +265,9 @@ il metodo “main(String[] args)"" e' Il punto di ingresso principale del progra
 
 ### Metodi che gestiscono come entrare come admin/studente
 Altri metodi della pagina Main che gestiscono il flusso delle operazioni sono i seguenti:
-1. “printMainMenu()”: Visualizza il menu principale del programma e gestisce la selezione dell'opzione.
+1. “stampiMenuPrincipale()”: Visualizza il menu principale del programma e gestisce la selezione dell'opzione.
 2. “adminLogin()”: Gestisce l'accesso dell'amministratore al sistema, richiedendo nome utente e password.
-3. “studentLogin()”: Gestisce l'accesso degli studenti richiedendo l'ID studente e la password, verificando le credenziali e avviando le operazioni studentesche se l'accesso avviene con successo.
+3. “studenteLogin()”: Gestisce l'accesso degli studenti richiedendo l'ID studente e la password, verificando le credenziali e avviando le operazioni studentesche se l'accesso avviene con successo.
 ---
 ### Metodi che gestiscono le operazioni relative all'amministratore 
 
@@ -308,15 +308,15 @@ Il costruttore inizializza l'oggetto "Studente" con i dati personali e verifica 
 ## Metodi 
 I metodi di questa classe sono numerosi. Cerco di sintetizzare in seguito:
 ### Get e set metodi per restituire ed impostare i valori dei variabili
-I get e set metodi per restituire ed impostare i valori dlle variabili dichiarate, come **getIdStudente()**, **setIdStudente()**, **getPassword()**, **setPassword()** eccetera. Inoltre e' prevvisto anche un costruttore per inizializzare i valori delle variabili dichiarate
+I get e set metodi per restituire ed impostare i valori dlle variabili dichiarate, come **getIdStudente()**, **setIdStudente()**, **getPassword()**, **setPassword()** eccetera. 
 
 ---
 ### Metodi per aggiornare i valori delle variabile dichiarate
-i metodi per aggiornare i valori delle variabile dichiarate. Vengono chiamati qualora l'utente sceglie di aggiornare/reimpostare i valori dei variabili dichiarati.
+i metodi per aggiornare i valori delle variabile dichiarate. Vengono chiamati qualora l'utente sceglie di aggiornare/reimpostare i valori delle variabili dichiarate.
 
 Ad esempio **aggiorniPassword()** che serve per aggionare la password esistente dello studente. **aggiorniTrimestre()** per aggionare la trimestre esistente dello studente. etc.
 
-Questi metodi chiamano i rispettivi metodi get dopo aver ricevuto l'input digitato dall'utente tramite la tastiera. Ad esempio, il metodo **aggiorniNome()** va a chiamare il meotodo **setNome**.
+Questi metodi chiamano i rispettivi metodi get dopo aver ricevuto l'input digitato dall'utente tramite la tastiera. Ad esempio, il metodo **aggiorniNome()** va a chiamare il metodo **setNome**.
 
 Vengono prevvisti vari messaggi all'utente per chiedergli di inserire con la tastiera il valore nuovo 
 
@@ -325,32 +325,32 @@ Alla fine, vengono prevvisti vari messagi all'utente per notificare la riuscita 
 ---
 
 ### Metodo speciale per restituire una lista delle opzioni
-Un metodo speciale chiamato **modifichiStudente()** che restituisce una lista delle opzioni per selezionare quale variabile il cui valore l'utente desidera modificare.
+Un metodo speciale denominato **modificaStudente()** è progettato per restituire un elenco di opzioni per consentire all'utente di selezionare quale variabile desidera modificare nel contesto degli studenti.
 
-Il metodo restituisce una lista delle opzioni con testo come "1- Aggiorna ID studente", "7- Aggiorna il numero di telefono dello/a studente", "10- Torna indietro"
+Il metodo genera un elenco di opzioni con testi come "1- Modifica ID studente", "7- Modifica numero di telefono dello/a studente", "10- Torna indietro".
 
-In primo luogo, il metodo chiama il metodo opzioneValida presente alla pagina main per controllare la validita' del valore digitato (che sia effettivamento un numero tra l'intervello previsto)
+Inizialmente, il metodo richiama il metodo opzioneValida() presente nella classe principale per verificare la validità del valore inserito dall'utente, assicurandosi che sia un numero all'interno dell'intervallo previsto.
 
-L'utente, dopo aver digitato il numero dell'opzione desiderata, potra' inserire il valore nuovo per aggiornare il valore attuale della variabile
+Dopo che l'utente ha digitato il numero corrispondente all'opzione desiderata, avrà l'opportunità di inserire il nuovo valore per aggiornare l'attuale valore della variabile.
 
-Questo metodo funziona perche' e' prevvisto una lunga condizione else if che controlla il valore numerico digitato dall'utente uno per uno.
+Questo metodo funziona grazie a una serie di condizioni "else if" che controllano uno per uno i valori numerici inseriti dall'utente. Quando una di queste condizioni risulta vera, viene chiamato il metodo di aggiornamento corrispondente.
 
-Quando la condizione risulta vera, chiama il metodo di aggiornamento corrispondente.
+Alla fine dell'aggiornamento, il metodo offre la possibilità di chiamare nuovamente se stesso per effettuare ulteriori modifiche o di tornare indietro nel menu, garantendo un processo di modifica fluido e intuitivo.
 
-Alla fine, dopo l'aggiornamento, richiama nuovamente il metodo per ulteriori modifiche o per tornare indietro nel menu
+
 
 ---
 
 ### Metodi per effettuare operazioni di sintesi
-Alla fine, la classe contiene alcuni metodi per effettuare operazioni di sintesi.
+Successivamente, la classe contiene alcuni metodi per effettuare operazioni di sintesi.
 
 Ho provato a fare un riassunto di questi metodi aggiuntivi qui sotto:
 
-7. **”calcoliMedia()”**: Calcola la media dei voti dello studente in tutti gli insegnamenti a cui è iscritto.
+1. **”calcoliMedia()”**: Calcola la media dei voti dello studente in tutti gli insegnamenti a cui è iscritto.
 
-8. **”stampiStudenteInsegnamenti(ArrayList< Insegnamento> insegnamenti)”**: Stampa l'elenco degli insegnamenti a cui lo studente è iscritto, inclusi dettagli come l'ID dell'insegnamento, il nome, il trimestre e il voto dello studente.
+2. **”stampiStudenteInsegnamenti(ArrayList< Insegnamento> insegnamenti)”**: Stampa l'elenco degli insegnamenti a cui lo studente è iscritto, inclusi dettagli come l'ID dell'insegnamento, il nome, il trimestre e il voto dello studente.
 
-9. **”stampiResocontoCompleto()”**: Stampa un resoconto completo delle informazioni dello studente, compresi dettagli come l'ID dello studente, il numero di trimestri, il nome, il cognome, il corso, il numero di telefono, l'età e una lista degli insegnamenti a cui è iscritto con i relativi voti e la media (se ci sono insegnamenti iscritti).
+3. **”stampiResocontoCompleto()”**: Stampa un resoconto completo delle informazioni dello studente, compresi dettagli come l'ID dello studente, il numero di trimestri, il nome, il cognome, il corso, il numero di telefono, l'età e una lista degli insegnamenti a cui è iscritto con i relativi voti e la media (se ci sono insegnamenti iscritti).
 
 
 ---
@@ -401,13 +401,15 @@ Ci sono due get metodi:
 ---
 
 ### Metodo per leggere i dati degli studenti da Studenti.txt
-Il metodo “leggiDati()” legge i dati degli studenti da un file di testo chiamato "Studenti.txt" e li carica nell'applicazione. I dati degli studenti sono memorizzati in un formato CSV.
+Il metodo “leggiDati()” legge i dati degli studenti da un file di testo chiamato "Studenti.txt" e li carica nell'applicazione. In questo file, sono memorizzati i dati degli studenti in un formato CSV.
 
 Questo metodo divide i dati degli studenti e degli insegnamenti a cui sono iscritti e crea oggetti “Studente” corrispondenti.
 
+### Metodi per modificare i dati degli studenti
+
 1. “aggiungiStudente()”: Permette di aggiungere un nuovo studente all'elenco degli studenti. Richiede l'inserimento di tutte le informazioni necessarie per creare un nuovo oggetto “Studente”, verificando che l'ID studente sia univoco.
-2. “eliminaStudente(Studente student)”: Rimuove uno studente dall'elenco degli studenti, compresa la cancellazione della sua iscrizione da tutti gli insegnamenti.
-3. “selezionaStudente(ArrayList< Studente> studenti)”: Permette all'utente di selezionare uno studente dall'elenco fornito.
+2. “eliminiStudente(Studente student)”: Rimuove uno studente dall'elenco degli studenti, compresa la cancellazione della sua iscrizione da tutti gli insegnamenti.
+3. “selezioniStudente(ArrayList< Studente> studenti)”: Permette all'utente di selezionare uno studente dall'elenco fornito.
 
 ---
 
@@ -418,17 +420,9 @@ Il metodo “stampiDatiStudente(ArrayList< Studente> studenti)” stampa i dati 
 
 
 ---
-
-Il metodo **modifichiInsegnamento()** restituisce una lista delle opzioni per selezionare quale variabile il cui valore l'utente desidera modificare.
-
-Il suo funzionamento e' molto simile/uguale al metodo **modifichiStudente()** della classe **Studente**
-
-
----
-
 ## Alcuni metodi speciali
 
-1. “memorizzaDati()”: Memorizza i dati degli studenti nel file "Studenti.txt", in modo che possano essere recuperati in sessioni successive.
+1. “memorizziDati()”: Memorizza i dati degli studenti nel file "Studenti.txt", in modo che possano essere recuperati in sessioni successive.
 2. “login(String idStudente, String password)”: Verifica le credenziali di accesso di uno studente confrontando l'ID studente e la password forniti con quelli registrati. Restituisce l'oggetto “Studente” corrispondente se le credenziali sono corrette, altrimenti restituisce “null”.
 
 
@@ -507,6 +501,15 @@ La classe “InsegnamentoController” è responsabile della gestione degli inse
 2. “memorizziDati()”: Crea un FileWriter per memorizza i dati degli insegnamenti nel file di testo "Insegnamenti.txt".
 
 ---
+
+
+Il metodo **modifichiInsegnamento()** restituisce una lista delle opzioni per selezionare quale variabile il cui valore l'utente desidera modificare.
+
+Il suo funzionamento e' molto simile/uguale al metodo **modifichiStudente()** della classe **Studente**
+
+
+---
+
 
 ### Alcuni metodi get per restituire valori delle variabili
 
