@@ -251,7 +251,7 @@ Bene! Tutto sembra funzionare!!!
 ## Sintesi
 
 
-La pagina "Main" e' piena di metodi che guidano il flusso del programma e gestiscono l'interazione con l'utente.
+La pagina 'Main' è ricca di metodi che guidano il flusso del programma e gestiscono l'interazione con l'utente.
 
 Ogni metodo ha una funzione specifica nel flusso del programma e fornisce un menu di opzioni per l'utente. La classe “Main” e' per gestire diverse interazioni con gli amministratori e gli studenti.
 
