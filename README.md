@@ -119,6 +119,7 @@ Inseriamo le credenziali dello studente che abbiamo appena creato. Siamo riuscit
 ## Visualizzare i dati dello studente
 
 Cominciamo visualizzando prima di tutto i nostri dati:
+
 ![Pasted image 20230925205354](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/51c55997-1f11-4fe9-b829-db819b1b4cba)
 
 
@@ -132,12 +133,14 @@ Mi indica correttamente che non sono iscritto a nessun corso!
 Ottimo, adesso mi iscrivo a alcuni insegnamenti che mi interessano:
 
 ![Pasted image 20230925211943](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/89bd1c17-547b-41bb-b40b-a79e886be797)
+
 ![Pasted image 20230925212010](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/3deb7ae1-0d40-4f46-96e2-354956836ed2)
 
 
 Ci sono tre insegnamenti a cui possiamo iscriverci!
 
 Se apriamo il file 'Insegnamenti.txt', troveremo invece più di tre insegnamenti disponibili. Il motivo è che avevamo impostato il trimestre dello studente come '3'. Pertanto, il programma ci consente di selezionare solo gli insegnamenti del terzo trimestre!
+
 ![Pasted image 20230925210140](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/35be239e-09ff-486f-aff7-a1a0df6e6278)
 
 
@@ -167,10 +170,12 @@ Ok, gli insegnamenti sono stati registrati correttamente!
 ## Ritirare lo studente da un insegnamento
 
 Ehi, aspetta un attimo, abbiamo cambiato idea: l'insegnamento "Sistemi Low code/no code" non ci convince più. Vogliamo ritirarci da questo corso!
+
 ![Pasted image 20230925220603](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/33ee08ce-82e1-40e9-ac98-97920eef3383)
 
 
 Vediamo se tutto è andato a buon fine!
+
 ![Pasted image 20230925220641](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/ac210cd4-2d46-42da-ba32-58bfcccb59d4)
 
 
@@ -181,8 +186,11 @@ Perfetto, sembra che l'insegnamento 'Sistemi Low code/no code' sia stato rimosso
 
 ## Promuovere lo studente al prossimo trimestre, aggiornando questo dato e gli insegnamenti a cui può iscriversi
 Dopo 3 mesi, desideriamo promuovere lo studente al quarto semestre. Ora procediamo con la modifica dei suoi dati!
+
 ![Pasted image 20230925212633](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/9d96f956-ad2f-4654-86c0-93088648655b)
+
 ![Pasted image 20230925212641](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/9af5dba5-a783-4f1d-82c4-69a25bb5cf7c)
+
 ![Pasted image 20230925211638](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/0a36565e-5e53-49c8-96e6-69bbee24e16c)
 
 
@@ -195,6 +203,7 @@ Torniamo indietro e chiudiamo il programma per salvare la modifica:
 ![Pasted image 20230925212734](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/0c996d40-f03c-47d5-b699-dd03fb538c7f)
 
 Ora verifichiamo se lo studente può selezionare gli insegnamenti del quarto trimestre!
+
 ![Pasted image 20230925221520](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/6e232fcf-9a04-457c-bc43-e713195d38c2)
 
 ![Pasted image 20230925213013](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/48eee972-f1c8-4946-b277-22f4b831883e)
@@ -207,6 +216,7 @@ Perfetto! La modifica del trimestre è stata effettuata con successo!
 ## Registra i voti dello studente
 
 Ora, lo studente si avvicina alla fine del corso e ha passato anche gli esami del quarto trimestre. Procediamo con la registrazione dei voti dello studente
+
 ![Pasted image 20230925214335](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/fdd3aa94-cc8c-4faa-8b38-cc55f5e164e7)
 
 ![Pasted image 20230925214343](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/a7e1cc31-abdf-48c5-acd4-5dc84c594b0c)
@@ -223,7 +233,9 @@ Ora i voti dello studente sono: 70, 75 e 80
 ## Visualizza il resoconto completo dello studente, inclusa la media calcolata dai voti
 
 Ora diamo un'occhiata alla sintesi dei dati dello studente
+
 ![Pasted image 20230925214724](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/7c0127b8-43c5-42a8-81cf-f0611136a6e5)
+
 ![Pasted image 20230925214729](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/a949fb76-f921-443c-a994-b59bf3832af0)
 
 ![Pasted image 20230925214736](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/f6378c6c-6dbd-4f87-9f45-0632a38208b8)
