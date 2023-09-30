@@ -32,7 +32,7 @@ Se un utente desidera accedere come studente, è necessario fornire informazioni
 
 Nel caso in cui non siano ancora presenti profili studenteschi nel database ("Studenti.txt"), il programma segnalerà l'assenza di tali dati e richiederà all'utente di crearne uno prima di procedere.
 
-Si tenga presente che i dati immessi verranno memorizzati nel file "Studenti.txt" solo al termine della sessione, includendo sia la password che l'ID studentesco. Per ulteriori dettagli, è possibile consultare la sezione "Uscire dal programma per salvare le modifiche".
+Si tenga presente che i dati immessi verranno memorizzati nel file "Studenti.txt" solo al termine della sessione, includendo sia la password che l'ID studentesco. Per ulteriori dettagli, è possibile consultare la sezione "Per salvare le modifiche, uscire dal programma".
 
 Questa stessa procedura si applica ai dati relativi agli insegnamenti.
 
