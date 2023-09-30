@@ -3,7 +3,7 @@ Prima di leggere questo, La prego di leggere il file 'README PRINCIPALE.md', che
 
 Il programma rappresenta una versione avanzata del progetto denominato 'ITS Prodigi V1.0'. Consente all'utente di accedere sia come amministratori che come studenti e di effettuare una serie di operazioni amministrative e studentesche
 
-Mentre completavo il mio primo progetto, ho avuto l'idea di espandere il programma basandolo su quello precedente. In effetti, i due progetti hanno alcune somiglianze. Inoltre, ritenevo che il primo progetto fosse troppo generico e poco personale, oltre ad essere relativamente semplice.
+Mentre completavo il mio primo progetto, ho avuto l'idea di espandere il programma basandolo su quello. In effetti, i due progetti hanno alcune somiglianze. Inoltre, ritenevo che il primo progetto fosse troppo generico e poco personale, oltre ad essere relativamente semplice.
 
 Ho iniziato a lavorare su questo progetto qualche mese fa e sono riuscito a "completarlo" verso la fine di ottobre. Tuttavia, utilizzo il termine "completarlo" tra virgolette perché mancano ancora molte funzionalità che avevo in mente di implementare. Volevo aggiungere ulteriori funzionalità, ma a causa delle limitazioni di tempo, non ho potuto farlo.
 
