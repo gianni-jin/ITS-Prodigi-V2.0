@@ -72,7 +72,7 @@ Questo significa che è necessario avviare la sessione come amministratore prima
 ![Pasted image 20230925203332](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/f630e063-86c7-4681-ae72-6bc4a778c732)
 
 
-Abbiamo tentato di accedere al programma come amministratore, ma al primo tentativo non ci siamo riusciti poiché avevo inserito erroneamente il nome utente.
+Abbiamo tentato di accedere al programma come amministratore, ma al primo tentativo non ci siamo riusciti poiché avevamo inserito erroneamente il nome utente.
 
 Successivamente, inserendo correttamente il nome utente e la password dell'amministratore, siamo riusciti ad accedere con successo al programma!
 
@@ -169,7 +169,7 @@ Ok, gli insegnamenti sono stati registrati correttamente!
 
 ## Ritirare lo studente da un insegnamento
 
-Ehi, aspetta un attimo, abbiamo cambiato idea: l'insegnamento "Sistemi Low code/no code" non ci convince più. Vogliamo ritirarci da questo corso!
+Ehi, aspetta un attimo, abbiamo cambiato idea: l'insegnamento "Sistemi Low code/no code" non ci piace più. Vogliamo ritirarci da questo corso!
 
 ![Pasted image 20230925220603](https://github.com/gianni-jin14/ITS-Prodigi-V2.0/assets/129873947/33ee08ce-82e1-40e9-ac98-97920eef3383)
 
