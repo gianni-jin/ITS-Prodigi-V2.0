@@ -325,7 +325,7 @@ Alla fine, vengono prevvisti vari messagi all'utente per notificare la riuscita 
 ---
 
 ### Metodo speciale per restituire una lista delle opzioni
-Un metodo speciale denominato **modificaStudente()** è progettato per restituire un elenco di opzioni per consentire all'utente di selezionare quale variabile desidera modificare nel contesto degli studenti.
+Un metodo speciale denominato **modifichiStudente()** è progettato per restituire un elenco di opzioni per consentire all'utente di selezionare quale variabile desidera modificare nel contesto degli studenti.
 
 Il metodo genera un elenco di opzioni con testi come "1- Modifica ID studente", "7- Modifica numero di telefono dello/a studente", "10- Torna indietro".
 
